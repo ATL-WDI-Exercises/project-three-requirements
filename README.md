@@ -62,6 +62,17 @@ Your app must:
 * **Comment your code.** Will someone understand what is going on in each block or function? Even if it's obvious, explaining the what & why means someone else can pick it up and get it.
 * **Write pseudocode before you write actual code.** Thinking through the logic of something helps.
 
+---
+
+### GIT and GitHub Best Practices for Team Projects
+
+Here are some best practices for using Git and GitHub in a one-week team project.
+
+* **Use One GitHub Repo:**  Choose one person to create the GitHub repo. All teammates will clone from one GitHub repo. At the end of the project, teammates may fork the repo if they want to have ownership over their own fork.
+* **Use Feature Branches:**  Each developer should do their work in a feature branch and coordinate with the team when to merge back into the master branch. Try to merge no less than once per day.
+* **Pull Before Merging:**  Always do a pull before a merge to make sure that you are merging into the latest version of the branch.
+* **Rebase Feature Branches:**  Rebasing is a good way to keep a feature branch up to date with the master. Thus you will rebase to update your feature branches and merge to update the master branch.
+* **Deploy From Master Branch:**  The master branch should be used for deployments to Heroku.
 
 ---
 
