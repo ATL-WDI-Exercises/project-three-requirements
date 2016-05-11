@@ -1,5 +1,12 @@
 ##Here are some ATL Project #3 sample links:
-=========================
+
+[Band Board](https://github.com/Band-Board/band-board)
+
+[Giftr](https://github.com/tiptoptrio/giftr)
+
+[Jobs Tracker](https://github.com/nwepperson/Jobs-Tracker)
+
+[Vittles](https://github.com/Devicurius/vittles)
 
 [The Bullpen](https://github.com/mattvaldez/project_3_group)
 

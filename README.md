@@ -12,14 +12,13 @@ While your last project taught you how to get started with Ruby, SQL, & Ruby on 
 
 Make it work, and make it awesome.
 
-
 ---
 
 ### Technical Requirements
 
 Your app must:
 
-* **Use Mongo & Express** to build an full-stack web application
+* **Use Mongo & Express** to build an full-stack web application using server-side Javascript
 * **Use at least 2 related models**, one of which should be a user
 * Follow the **RESTful** best practices - all routes should be defined using an HTTP GET/PUT/POST/DELETE on a URL that represents the resource being accessed
 * Include **all major CRUD functions** for at least one of the models
@@ -29,9 +28,10 @@ Your app must:
 * Layout and style your front-end with **clean & well-formatted CSS**
 * **Deploy your application online** so it's publically accessible
 
-### Bonuses
+Bonuses:
 
-* **Add some front-end rendering with Javascript & jQuery
+* Add some **client-side rendering** with Javascript & jQuery (i.e. making AJAX calls to the server)
+* Consume a 3rd party API
 
 ---
 
