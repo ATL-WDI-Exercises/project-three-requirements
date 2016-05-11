@@ -4,7 +4,7 @@
 
 You’ve already worked in small groups to accomplish various labs and exercises, but this time **we’re going to challenge you to work on a whole project with a small team.**
 
-Not only will you be asked to **exercise additional creativity** in designing your own project, your instructors will partner you with other classmates to architect, design, and collaboratively build an API of your own design.
+Not only will you be asked to **exercise additional creativity** in designing your own project, your instructors will partner you with other classmates to architect, design, and collaboratively build a full-stack web application of your own design.
 
 While your last project taught you how to get started with Ruby, SQL, & Ruby on Rails, this project you'll be building something exciting with **Express & Mongo.**
 
@@ -19,23 +19,25 @@ Make it work, and make it awesome.
 
 Your app must:
 
-* **Use Mongo & Express** to build an API and a front-end that consumes it
-* **Create an API using at least 2 related models**, one of which should be a user
-* Include **all major CRUD functions** in a **RESTful API** for at least one of those models
-* **Consume your own API** by making your front-end with HTML, Javascript, & jQuery
-* **Add authentication to your API** to restrict access to appropriate users
+* **Use Mongo & Express** to build an full-stack web application
+* **Use at least 2 related models**, one of which should be a user
+* Follow the **RESTful** best practices - all routes should be defined using an HTTP GET/PUT/POST/DELETE on a URL that represents the resource being accessed
+* Include **all major CRUD functions** for at least one of the models
+* **Add authentication and authorization** to your web application to restrict access to appropriate users
 * **Craft thoughtful user stories together**, as a team
 * **Manage team contributions and collaboration** using a standard Git flow on Github
 * Layout and style your front-end with **clean & well-formatted CSS**
 * **Deploy your application online** so it's publically accessible
 
+### Bonuses
+
+* **Add some front-end rendering with Javascript & jQuery
 
 ---
 
 ### Necessary Deliverables
 
-* A **working API, built by the whole team**, hosted somewhere on the internet
-* A handmade front-end **that consumes your own API**, hosted somewhere on the internet
+* A **working web application, built by the whole team**, hosted somewhere on the internet
 * A **link to your hosted working app** in the URL section of your Github repo
 * A **team git repository hosted on Github**, with a link to your hosted project, and frequent commits from _every_ team member dating back to the _very beginning_ of the project
 * **A ``readme.md`` file** with:
@@ -45,7 +47,7 @@ Your app must:
     * Link to your **user stories** – who are your users, what do they want, and why?
     * Link to your **wireframes** – sketches of major views / interfaces in your application
     * Descriptions of any **unsolved problems** or **major hurdles** your team had to overcome
-
+    * **Future vision** for the project
 
 ---
 
@@ -53,9 +55,9 @@ Your app must:
 
 * **Don’t hesitate to write throwaway code** to solve short term problems.
 * **Read the docs for whatever technologies / frameworks / API’s you use**.
-* **Write your code DRY** and **build your APIs RESTful**.
+* **Write your code DRY** and **build your routes using RESTful best practices**.
 * **Be consistent with your code style.** You're working in teams, but you're only making one app per team. Make sure it looks like a unified effort.
-* **Commit early, commit often.** Don’t be afraid to break something because you can always go back in time to a previous version.
+* **Commit early, commit often.**
 * **Keep user stories small and well-defined**, and remember – user stories focus on what a user needs, not what development tasks need accomplishing.
 * **Write code another developer wouldn't have to ask you about**. Do your naming conventions make sense? Would another developer be able to look at your app and understand what everything is?
 * **Make it all well-formatted.** Are you indenting, consistently? Can we find the start and end of every div, curly brace, etc?
