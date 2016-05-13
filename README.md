@@ -76,10 +76,12 @@ Here are some best practices for using Git and GitHub in a one-week team project
 * **Rebase Feature Branches:**  Rebasing is a good way to keep a feature branch up to date with the master. Thus you will rebase to update your feature branches and merge to update the master branch. The flow would look like this:
   - complete work on feature branch, test and commit to feature branch
   - checkout master and pull to get latest changes to master
-  - checkout feature branch and rebase (or merge) to include latest changes from master into feature branch
-  - test feature branch again (this time with latest changes from master)
-  - checkout master and merge feature branch into master
-  - push master with changes from the feature branch
+  - if any changes were pulled into master, then
+    - checkout feature branch and rebase (or merge) to include latest changes from master into feature branch
+    - test feature branch again (this time with latest changes from master)
+    - checkout master
+  - now merge feature branch into master
+  - push master to GitHub with changes from the feature branch
 * **Deploy From Master Branch:**  The master branch should be used for deployments to Heroku.
 
 ---
